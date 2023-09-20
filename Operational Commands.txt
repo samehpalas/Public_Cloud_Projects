@@ -1,0 +1,31 @@
+>>create your private key in the selected region and put it as a file in your terraform folder on your Laptop
+
+This program will ask your input for the below, to create your website as per your request.
+
+1- select a Region: ex: ca-central-1 or us-east-1 ...
+2- Key_pair_name in this form : ./xxx.pem or ./xxx.ppk for putty
+3- Key_pair_name just a name  : xxx
+
+--------------------------------------------
+
+
+operational Commands:
+--------------------
+
+terraform init
+terraform plan
+terraform apply -auto-approve
+terraform destroy -auto-approve
+
+-------------------------------------------
+Notes:
+
+- Dont forget to destory after you finish to avoid any cost from AWS
+- this code is the basement of building website by AWS so easily you can add website 
+  HA by count command, LB from aws loadbalance block, ASG , DNS,..
+
+  [ for Azure: VM (OR WEBAPP) - VMSS- VMAZ - GW APP - DNS -FW,..]
+
+------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
